@@ -3,11 +3,20 @@
 .App-content {
 	align-items: center;
 	background-color: #282c34;
-	color: white;
+	color: #fff;
 	display: flex;
 	flex-direction: column;
-	font-size: calc(10px + 2vmin);
-	justify-content: center;
-	min-height: 100vh;
+	font-size: calc(10px + 1vmin);
+	justify-content: flex-start;
+	min-height: calc(100vh - 32px);
 	text-align: center;
+	padding: 1rem;
+}
+
+.App-content .search {
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin: 1rem;
 }

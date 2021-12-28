@@ -1,0 +1,14 @@
+/** @format */
+
+.Gif {
+	align-items: center;
+	border: 1px solid #eee;
+	border-radius: 6px;
+	cursor: pointer;
+	color: #fff;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin: 1rem;
+	text-decoration: none;
+}
