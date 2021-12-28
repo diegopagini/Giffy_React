@@ -1,9 +1,7 @@
 /** @format */
 
 import React, { useState } from 'react';
-import { Route } from 'wouter';
 import './App.css';
-import { Gif } from './components/Gif';
 import { ListOfGifs } from './components/ListOfGifs';
 
 export default function App() {
